@@ -1,0 +1,9 @@
+// good mp4 download
+
+yt-dlp -S vcodec:h264,res,acodec:m4a  https://youtu.be/_mFyam1AXN8?si=JB5kTXtLTzWXUYGe^C
+
+
+// good mp3 download 
+yt-dlp -f bestaudio URL 
+yt-dlp -f bestaudio --extract-audio --audio-quality 0 --audio-format mp3 
+
